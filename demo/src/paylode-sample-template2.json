@@ -1,0 +1,652 @@
+{
+  "tagName": "mj-global-style\"",
+  "children": [{
+    "tagName": "mj-container",
+    "attributes": {
+      "background-color": "#FFFFFF",
+      "containerWidth": 600
+    },
+    "children": [{
+      "tagName": "mj-section",
+      "attributes": {
+        "full-width": "full-width",
+        "padding": "9px 0px 9px 0px",
+        "background-color": "#F0C9D2",
+        "background-url": null
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "50%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "left",
+            "font-size": "11",
+            "locked": "true",
+            "editable": "true",
+            "padding-bottom": "0",
+            "padding-top": "0",
+            "containerWidth": 600,
+            "color": "#131212",
+            "padding": "0px 0px 0px 5px"
+          },
+          "content": "<p>Write short email preheader<\/p>\n",
+          "uid": "iS11MzSD4"
+        }],
+        "uid": "_qoy4D-qm"
+      }, {
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "50%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "right",
+            "font-size": "11",
+            "locked": "true",
+            "editable": "false",
+            "padding-bottom": "0",
+            "padding-top": "0",
+            "containerWidth": 600,
+            "padding": "0px 5px 0px 0px"
+          },
+          "content": "<p><a draggable=\"false\" href=\"*|WEBVERSION|*\" style=\"color: #808080;\"><span style=\"color:#000000;\">Webversion<\/span><\/a><\/p>\n",
+          "uid": "BLgQ51VTb"
+        }],
+        "uid": "XKU2mfGIam"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "Cr8P8-2HW"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "full-width": "full-width",
+        "padding": "0px 0px 0px 0px",
+        "background-color": "#FFFFFF"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-spacer",
+          "attributes": {
+            "height": 11,
+            "containerWidth": 600
+          },
+          "uid": "7PUZ2FYlvo"
+        }],
+        "uid": "8E1XEl4Gw3"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "vzay56h_k"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "padding": "0px 0px 0px 0px",
+        "background-color": "#FFFFFF",
+        "background-url": "https:\/\/storage.googleapis.com\/afuxova10642\/5a2b21eb054845.4677968115127761710216.png",
+        "full-width": "full-width"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "padding": "0px 0px 0px 0px",
+            "line-height": 1.5,
+            "containerWidth": 600,
+            "font-family": "Lato, \"Tahoma\", sans-serif"
+          },
+          "uid": "UkVRPmAvT",
+          "content": "<p><span style=\"font-size:28px;\"><strong>COMPANY<\/strong><\/span><\/p>\n"
+        }, {
+          "tagName": "mj-image",
+          "attributes": {
+            "src": "https:\/\/storage.googleapis.com\/afuxova10642\/kisspng-iphone-8-iphone-x-iphone-4-smartphone-t-mobile-iphone-x-mobile-phone-5a6c329a5f8128.8634222215170402823912-1.png",
+            "padding": "0px 0px 0px 0px",
+            "alt": "",
+            "href": "",
+            "containerWidth": 600,
+            "width": 444,
+            "widthPercent": 74
+          },
+          "uid": "ryid8b41N",
+          "content": "<p><strong><span style=\"font-size:26px;\">U\u017d VYHL&Iacute;\u017d&Iacute;TE DOVOLENOU?<\/span><\/strong><\/p>\n"
+        }],
+        "uid": "B13SjbN1E"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "Hk-_8ZN1V"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "full-width": "full-width",
+        "padding": "0px 0px 0px 0px",
+        "background-color": "#FFFFFF"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-spacer",
+          "attributes": {
+            "height": 11,
+            "containerWidth": 600
+          },
+          "uid": "kbYc75QEdi"
+        }],
+        "uid": "KOjijFltLh"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "E2Oj0ukto"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "full-width": "full-width",
+        "padding": "9px 0px 9px 0px",
+        "background-color": "#F0C9D2"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "locked": "true",
+            "editable": "false",
+            "padding-bottom": "0",
+            "padding-top": "0",
+            "containerWidth": 600,
+            "padding": "0px 0px 0px 0px"
+          },
+          "content": "<p style=\"font-size: 11px;\"><span style=\"font-size:22px;\">Go Smart With Your Mobile Phone Choice<\/span><\/p>\n\n<p style=\"font-size: 11px;\">From keeping up with friends to working on the go, our smartphones have become part of our daily lives<br \/>\n&ndash;&nbsp;so it&#39;s important to choose the right one for you. And with a range of iconic makes, including Apple,<br \/>\nSony and Samsung, it&#39;s never been easier to settle on your favourite.&nbsp;<\/p>\n",
+          "uid": "VM_r3CEd4"
+        }, {
+          "tagName": "mj-button",
+          "attributes": {
+            "align": "center",
+            "background-color": "#6E9DE7",
+            "color": "#fff",
+            "border-radius": "24px",
+            "font-size": 13,
+            "padding": "20px 20px 20px 20px",
+            "inner-padding": "9px 26px",
+            "href": "https:\/\/google.com",
+            "font-family": "Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif",
+            "containerWidth": 600,
+            "border": "0px solid #000"
+          },
+          "content": "Go to shop",
+          "uid": "T6rNEjGaWF"
+        }],
+        "uid": "49VuRDdGAZ"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "JFgczWEh6"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "full-width": "full-width",
+        "padding": "0px 0px 0px 0px",
+        "background-color": "#FFFFFF"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-spacer",
+          "attributes": {
+            "height": 11,
+            "containerWidth": 600
+          },
+          "uid": "FnDnKo6tk6"
+        }],
+        "uid": "KOjijFltLh"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "fw_PFqgPv"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "full-width": "full-width",
+        "padding": "9px 0px 9px 0px",
+        "background-color": "#EEE9E9"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "33.333333%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-image",
+          "attributes": {
+            "src": "https:\/\/storage.googleapis.com\/afuxova10642\/kisspng-telegram-computer-icons-apple-icon-image-format-telegram-icon-enkel-iconset-froyoshark-5ab08446a53055.4844118815215176386766.png",
+            "padding": "0px 0px 0px 0px",
+            "alt": "",
+            "href": "",
+            "containerWidth": 200,
+            "width": 90,
+            "widthPercent": 45
+          },
+          "uid": "Fka2JLAsRB"
+        }, {
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "padding": "0px 0px 0px 0px",
+            "line-height": 1.5,
+            "containerWidth": 200
+          },
+          "uid": "3Uvc77Km7",
+          "content": "<p><strong>CAMERA<\/strong><\/p>\n"
+        }, {
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "padding": "1px 1px 1px 1px",
+            "line-height": 1.5,
+            "containerWidth": 200
+          },
+          "uid": "9slQPSH12",
+          "content": "<p>In this &ldquo;selfie&rdquo; generation, the camera is so important.&nbsp;<\/p>\n"
+        }],
+        "uid": "P8a9SJGo9Z"
+      }, {
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "33.333333%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-image",
+          "attributes": {
+            "src": "https:\/\/storage.googleapis.com\/afuxova10642\/kisspng-telegram-computer-icons-apple-icon-image-format-telegram-icon-enkel-iconset-froyoshark-5ab08446a53055.4844118815215176386766.png",
+            "padding": "0px 0px 0px 0px",
+            "alt": "",
+            "href": "",
+            "containerWidth": 200,
+            "width": 90,
+            "widthPercent": 45
+          },
+          "uid": "Z1lAj3nxk"
+        }, {
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "padding": "0px 0px 0px 0px",
+            "line-height": 1.5,
+            "containerWidth": 200
+          },
+          "uid": "mOXsNQEVG",
+          "content": "<p><strong>EDUCATION<\/strong><\/p>\n"
+        }, {
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "padding": "1px 1px 1px 1px",
+            "line-height": 1.5,
+            "containerWidth": 200
+          },
+          "uid": "U9TOgYtTn",
+          "content": "<p>Smartphones also aid education, especially in children.&nbsp;<\/p>\n"
+        }],
+        "uid": "gSAkKrXsPY"
+      }, {
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "33.333333%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-image",
+          "attributes": {
+            "src": "https:\/\/storage.googleapis.com\/afuxova10642\/kisspng-telegram-computer-icons-apple-icon-image-format-telegram-icon-enkel-iconset-froyoshark-5ab08446a53055.4844118815215176386766.png",
+            "padding": "0px 0px 0px 0px",
+            "alt": "",
+            "href": "",
+            "containerWidth": 200,
+            "width": 90,
+            "widthPercent": 45
+          },
+          "uid": "qYFFLHlYQ"
+        }, {
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "padding": "0px 0px 0px 0px",
+            "line-height": 1.5,
+            "containerWidth": 200
+          },
+          "uid": "0OYDcwxMf",
+          "content": "<p><strong>APPLICATIONS<\/strong><\/p>\n"
+        }, {
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "padding": "1px 1px 1px 1px",
+            "line-height": 1.5,
+            "containerWidth": 200
+          },
+          "uid": "Mr0nB3c8_",
+          "content": "<p>Smartphones can do almost everything with the help of apps.&nbsp;<\/p>\n"
+        }],
+        "uid": "KoDnmLsJQC"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "zdIAE2Ctp"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "full-width": "full-width",
+        "padding": "0px 0px 0px 0px",
+        "background-color": "#FFFFFF"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-spacer",
+          "attributes": {
+            "height": 11,
+            "containerWidth": 600
+          },
+          "uid": "lhVergt8k"
+        }],
+        "uid": "8E1XEl4Gw3"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "G1VKUAZas"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "full-width": "full-width",
+        "padding": "7px 0px 7px 0px",
+        "background-color": "#F0C9D2"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "60%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-image",
+          "attributes": {
+            "src": "https:\/\/storage.googleapis.com\/afuxova10642\/kisspng-mobile-app-development-infographic-mobile-device-vector-phone-app-5aa8c45ba73be3.064688941521009755685.png",
+            "padding": "0px 0px 0px 0px",
+            "alt": "",
+            "href": "",
+            "containerWidth": 300,
+            "width": 300,
+            "widthPercent": 100
+          },
+          "uid": "o7NXhRUX6"
+        }],
+        "uid": "g-Grf7aLX"
+      }, {
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "40%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "left",
+            "font-size": "11",
+            "padding": "5px 5px 5px 5px",
+            "line-height": 1.5,
+            "containerWidth": 300
+          },
+          "uid": "o6nDKFpdv",
+          "content": "<p>The smartphones also make it convenient for people to surf the web.<\/p>\n"
+        }, {
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "left",
+            "font-size": "11",
+            "padding": "5px 5px 5px 16px",
+            "line-height": 1.5,
+            "containerWidth": 300
+          },
+          "uid": "gPFW27gCu",
+          "content": "<p>Online shopping is still growing far more quickly than traditional brick-and-mortar retail, and much of that is thanks to people using mobile devices to shop.<\/p>\n"
+        }, {
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "left",
+            "font-size": "11",
+            "padding": "5px 5px 5px 30px",
+            "line-height": 1.5,
+            "containerWidth": 300
+          },
+          "uid": "nW-n40KBk",
+          "content": "<p>Smartphones are also viewed as a source of entertainment &ndash; games, music, movies, and books.&nbsp;<\/p>\n"
+        }],
+        "uid": "xTvKhTYdTK"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "zdix1J84_"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "full-width": "full-width",
+        "padding": "0px 0px 0px 0px",
+        "background-color": "#FFFFFF"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-spacer",
+          "attributes": {
+            "height": 11,
+            "containerWidth": 600
+          },
+          "uid": "yXtby-V9h2"
+        }],
+        "uid": "q9ZBP_aJDV"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "QjHhIg5da"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "full-width": "full-width",
+        "padding": "9px 0px 9px 0px",
+        "background-color": "#FFFFFF",
+        "background-url": "https:\/\/storage.googleapis.com\/afuxova10642\/5a2b21eb054845.4677968115127761710216-1.png"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-social",
+          "attributes": {
+            "display": "facebook:url twitter:url google:url instagram:url",
+            "padding": "10px 10px 10px 10px",
+            "text-mode": "false",
+            "icon-size": "35px",
+            "base-url": "https:\/\/s3-eu-west-1.amazonaws.com\/ecomail-assets\/editor\/social-icos\/rounded\/",
+            "facebook-href": "https:\/\/www.facebook.com\/PROFILE",
+            "facebook-icon-color": "none",
+            "facebook-alt": "Sd\u00edlet",
+            "twitter-href": "https:\/\/www.twitter.com\/PROFILE",
+            "twitter-icon-color": "none",
+            "twitter-alt": "",
+            "google-href": "https:\/\/plus.google.com\/PROFILE",
+            "google-icon-color": "none",
+            "google-alt": "",
+            "instagram-icon-color": "none",
+            "linkedin-icon-color": "none",
+            "align": "center",
+            "youtube-icon-color": "none",
+            "youtube-alt": "",
+            "youtube-icon": "https:\/\/s3-eu-west-1.amazonaws.com\/ecomail-assets\/editor\/social-icos\/rounded\/youtube.png",
+            "youtube-href": "https:\/\/www.youtube.com",
+            "pinterest-icon-color": "none",
+            "containerWidth": 600
+          },
+          "uid": "yuNvVKB6l"
+        }, {
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "padding": "15px 15px 15px 15px",
+            "line-height": 1.5,
+            "containerWidth": 600
+          },
+          "uid": "AcvebToUz",
+          "content": "<p>Please enter your address and your contact here.<\/p>\n\n<p>Explain why your subscribers are receiving this email.<\/p>\n"
+        }, {
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "locked": "true",
+            "editable": "true",
+            "padding-bottom": "0",
+            "padding-top": "0",
+            "containerWidth": 600,
+            "padding": "0px 0px 0px 0px"
+          },
+          "content": "<p style=\"font-size: 11px;\">If you don&acute;t want to receive our emails, you can&nbsp;<span style=\"color: rgb(0, 0, 0);\"><a href=\"*|UNSUB|*\" style=\"color: #000000;\">unsubscribe here<\/a>.<\/span><\/p>\n",
+          "uid": "Lt7pq5THM"
+        }],
+        "uid": "Rz7zv2CJTn"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "1xXLEbUPm"
+    }]
+  }],
+  "style": [],
+  "attributes": {
+    "mj-text": {
+      "line-height": 1.5
+    },
+    "mj-button": [],
+    "mj-section": {
+      "background-color": "#FFFFFF"
+    }
+  },
+  "fonts": ["Lato, \"Tahoma\", sans-serif"]
+}

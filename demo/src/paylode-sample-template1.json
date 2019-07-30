@@ -1,0 +1,388 @@
+{
+  "tagName": "mj-global-style\"",
+  "children": [{
+    "tagName": "mj-container",
+    "attributes": {
+      "background-color": "#FDFDFD",
+      "containerWidth": 600
+    },
+    "children": [{
+      "tagName": "mj-section",
+      "attributes": {
+        "locked": "true",
+        "containerWidth": 600,
+        "padding": "0px 0px 0px 0px",
+        "background-color": "#CBFCFF",
+        "layout": "normal"
+      },
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "66.66666666666666%",
+          "vertical-align": "middle",
+          "containerWidth": 400
+        },
+        "children": [{
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "left",
+            "font-size": "11",
+            "locked": "true",
+            "editable": "true",
+            "padding-bottom": "0",
+            "padding-top": "0",
+            "containerWidth": 600,
+            "padding": "0px 0px 0px 10px"
+          },
+          "content": "<p>Write short email preheader<\/p>\n",
+          "uid": "ByWEAwYf1E"
+        }],
+        "uid": "HJlNRvFfJ4"
+      }, {
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "33.33333333333333%",
+          "vertical-align": "middle",
+          "containerWidth": 134
+        },
+        "children": [{
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "right",
+            "font-size": "11",
+            "locked": "true",
+            "editable": "false",
+            "padding-bottom": "0",
+            "padding-top": "0",
+            "containerWidth": 600,
+            "padding": "0px 10px 0px 0px"
+          },
+          "content": "<p><span style=\"color: #000000;\"><a href=\"*|WEBVERSION|*\" style=\"color: #000000;\">Webversion<\/a><\/span><\/p>\n",
+          "uid": "rymNAPFzk4"
+        }],
+        "uid": "B1fVRvFfJN"
+      }],
+      "uid": "rk4AvFz14"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "vertical-align": "middle",
+        "background-size": "cover",
+        "background-repeat": "no-repeat",
+        "containerWidth": 600,
+        "background-color": "#CBFCFF",
+        "padding": "0px 0px 0px 0px",
+        "layout": "normal"
+      },
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "middle",
+          "containerWidth": 600
+        },
+        "children": [{
+          "tagName": "mj-spacer",
+          "attributes": {
+            "height": 10,
+            "containerWidth": 600
+          },
+          "uid": "J3aQGg_oJ"
+        }, {
+          "tagName": "mj-image",
+          "attributes": {
+            "src": "https:\/\/storage.googleapis.com\/afuxova10642\/konfety.png",
+            "padding": "0px 0px 0px 0px",
+            "alt": "",
+            "href": "",
+            "containerWidth": 600,
+            "width": 600,
+            "widthPercent": 100
+          },
+          "uid": "iLK2OKYg3"
+        }, {
+          "tagName": "mj-image",
+          "attributes": {
+            "src": "https:\/\/storage.googleapis.com\/afuxova10642\/nadpis-1.png",
+            "padding": "0px 0px 0px 0px",
+            "alt": "",
+            "href": "",
+            "containerWidth": 600,
+            "width": 600,
+            "widthPercent": 100
+          },
+          "uid": "Bd6OFNyEd"
+        }, {
+          "tagName": "mj-image",
+          "attributes": {
+            "src": "https:\/\/storage.googleapis.com\/afuxova10642\/dort.png",
+            "padding": "0px 0px 0px 0px",
+            "containerWidth": 600,
+            "width": 600,
+            "widthPercent": 100
+          },
+          "uid": "rkKN0PFzkV"
+        }],
+        "uid": "rkdV0PYG1E"
+      }],
+      "uid": "rJP4RDFGkV"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "padding": "0px 0px 0px 0px",
+        "background-color": "#CBFCFF"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-spacer",
+          "attributes": {
+            "height": 15,
+            "containerWidth": 600
+          },
+          "uid": "ZE07V_whs"
+        }],
+        "uid": "al9Io95ax"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "5mEAneG4t"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "padding": "9px 0px 9px 0px",
+        "background-color": "#FEDAE7"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "padding": "0px 0px 0px 0px",
+            "line-height": 1.5,
+            "containerWidth": 600
+          },
+          "uid": "znstwZPVU",
+          "content": "<p><span style=\"font-size:18px;\"><strong>Celebrate with 30 % off your next order!<\/strong><\/span><\/p>\n\n<p><span style=\"font-size:14px;\">Enter your&nbsp;unique code below during you shopping in our e-shop.<br \/>\nBut hurry! Code valid only one month.<\/span><\/p>\n\n<p><span style=\"color:#e42748;\"><span style=\"font-size:20px;\"><strong>CODE: BIRTHDAY2019<\/strong><\/span><\/span><\/p>\n"
+        }],
+        "uid": "VBbym9WBp"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "ZZ3Ki3pY3"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "padding": "0px 0px 0px 0px",
+        "background-color": "#FEDAE7"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-button",
+          "attributes": {
+            "align": "center",
+            "background-color": "#E42748",
+            "color": "#fff",
+            "border-radius": "none",
+            "font-size": 18,
+            "padding": "0px 12px 12px 12px",
+            "inner-padding": "12px 36px",
+            "href": "https:\/\/",
+            "font-family": "Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif",
+            "containerWidth": 600,
+            "border": "0px solid #000"
+          },
+          "content": "REDEEM NOW",
+          "uid": "zBNXj9A2l"
+        }],
+        "uid": "iSuGAQLlHX"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "-hZ5Ur24D"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "padding": "0px 0px 0px 0px",
+        "background-color": "#E42748"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "padding": "0px 0px 0px 0px",
+            "line-height": 1.5,
+            "containerWidth": 600
+          },
+          "uid": "7Cw4SC9Xu",
+          "content": "<p><span style=\"color:#ffffff;\"><span style=\"font-size:14px;\"><strong>FOLLOW US<\/strong><\/span><\/span><\/p>\n"
+        }],
+        "uid": "JFw2OwSz16"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "IRz4VtQSn"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "padding": "2px 0px 2px 0px",
+        "background-color": "#E42748"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-social",
+          "attributes": {
+            "display": "facebook:url twitter:url google:url instagram:url",
+            "padding": "10px 10px 10px 10px",
+            "text-mode": "false",
+            "icon-size": "35px",
+            "base-url": "https:\/\/s3-eu-west-1.amazonaws.com\/ecomail-assets\/editor\/social-icos\/roundedwhite\/",
+            "facebook-href": "https:\/\/www.facebook.com\/PROFILE",
+            "facebook-icon-color": "none",
+            "facebook-alt": "Sd\u00edlet",
+            "twitter-href": "https:\/\/www.twitter.com\/PROFILE",
+            "twitter-icon-color": "none",
+            "twitter-alt": "",
+            "google-href": "https:\/\/plus.google.com\/PROFILE",
+            "google-icon-color": "none",
+            "google-alt": "",
+            "instagram-icon-color": "none",
+            "linkedin-icon-color": "none",
+            "align": "center",
+            "youtube-icon-color": "none",
+            "youtube-alt": "",
+            "youtube-icon": "https:\/\/s3-eu-west-1.amazonaws.com\/ecomail-assets\/editor\/social-icos\/roundedwhite\/youtube.png",
+            "youtube-href": "https:\/\/www.youtube.com",
+            "pinterest-icon-color": "none",
+            "containerWidth": 600
+          },
+          "uid": "jYfmXik_l"
+        }],
+        "uid": "A66fGYg_Y"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "klotnBML9"
+    }, {
+      "tagName": "mj-section",
+      "attributes": {
+        "padding": "0px 0px 0px 0px",
+        "background-color": "#E42748"
+      },
+      "type": null,
+      "children": [{
+        "tagName": "mj-column",
+        "attributes": {
+          "width": "100%",
+          "vertical-align": "top"
+        },
+        "children": [{
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "locked": "true",
+            "editable": "false",
+            "padding-bottom": "0",
+            "padding-top": "0",
+            "containerWidth": 600,
+            "padding": "0px 0px 0px 0px"
+          },
+          "content": "<p style=\"font-size: 11px;\"><span style=\"color:#ffffff;\">Please enter your address and your contact here.<\/span><\/p>\n\n<p><span style=\"color:#ffffff;\">Explain why your subscribers are receiving this email.<\/span><\/p>\n",
+          "uid": "UT4nitTty"
+        }, {
+          "tagName": "mj-text",
+          "attributes": {
+            "align": "center",
+            "font-size": "11",
+            "locked": "true",
+            "editable": "true",
+            "padding-bottom": "0",
+            "padding-top": "0",
+            "containerWidth": 600,
+            "padding": "0px 0px 0px 0px"
+          },
+          "content": "<p style=\"font-size: 11px;\"><span style=\"color:#ffffff;\">If you don&acute;t&nbsp;want to receive any more information from us, please <\/span><strong><a href=\"*|UNSUB|*\" style=\"color: #000000;\"><span style=\"color:#ffffff;\">click this link<\/span><\/a><span style=\"color:#ffffff;\">.<\/span><\/strong><\/p>\n",
+          "uid": "dRtXRgo4A"
+        }],
+        "uid": "4d4uk8tozs"
+      }],
+      "layout": 1,
+      "backgroundColor": "",
+      "backgroundImage": "",
+      "paddingTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "uid": "RRyny3XaR"
+    }]
+  }],
+  "style": [],
+  "attributes": {
+    "mj-text": {
+      "line-height": 1.5
+    },
+    "mj-button": [],
+    "mj-section": {
+      "background-color": "#D7DEEE"
+    }
+  },
+  "fonts": []
+}
