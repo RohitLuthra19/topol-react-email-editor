@@ -1,6 +1,6 @@
 {
   "name": "topol-react-email-editor",
-  "version": "0.9.9",
+  "version": "1.0.0",
   "description": "Topol's Email Editor Component for React.js",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -33,7 +33,7 @@
   "author": "Rohit Luthra<rohit.luthra19@gmail.com>",
   "homepage": "https://tlapi.github.io/topol-editor/",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/RohitLuthra19/topol-react-email-editor",
   "keywords": [
     "react-component"
   ]
