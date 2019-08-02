@@ -77,6 +77,26 @@ class Demo extends Component {
             onLoad={this.onLoad}
             saveDesign={this.saveDesign}
             onSave={this.onSave}
+            templateId={1}
+            authorize={{
+              apiKey: "2HzrKzFpwOqiG98EmT3zRSdO6byCbRIVE0mCFiQYGPKLPWttrwOMWAFyeRcr",
+              userId: "rohit@quovantis.com",
+            }}
+            googleFonts={['Roboto', 'K2D', 'Mali']}
+            mergeTags= {[{
+              name: 'Merge tags', // Group name 
+              items: [{
+                  value: "*|FIRST_NAME|*", // Text to be inserted
+                  text: "First name", // Shown text in the menu
+                  label: "Customer's first name" // Shown description title in the menu
+                },
+                {
+                  value: "*|LAST_NAME|*",
+                  text: "Last name",
+                  label: "Customer's last name"
+                }
+              ]
+            }]}
           />
         </Container>
       </React.Fragment>

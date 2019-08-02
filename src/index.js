@@ -90,7 +90,8 @@ export default class extends Component {
     /**
      * Inializing the Topol plugin by passing options
      */
-    options = {
+
+    TopolPlugin.init({
       id: "#editor",
       callbacks: {
         onSaveAndClose: this.onSaveAndClose,
@@ -103,9 +104,7 @@ export default class extends Component {
         onBlockEdit: this.onBlockEdit,
       },
       ...options,
-    };
-
-    TopolPlugin.init(TOPOL_OPTIONS);
+    });
 
     const { onLoad } = this.props
     onLoad && onLoad()
