@@ -29,29 +29,69 @@ export default class extends Component {
     )
   }
 
+  componentWillUnmount() {
+    TopolPlugin.destroy();
+  }
   TopolPluginReady = () => {
-    /* const options = (this.props.options || {})
+    const options = (this.props.options || {})
 
     if (this.props.templateId) {
-      options.templateId = this.props.templateId
-    } */
-    
+      options.templateId = this.props.templateId;
+    }
 
+    if (this.props.authorize) {
+      options.authorize = this.props.authorize;
+    }
+    
+    if (this.props.googleFonts) {
+      options.googleFonts = this.props.googleFonts;
+    }
+
+    if (this.props.mergeTags) {
+      options.mergeTags = this.props.mergeTags;
+    }
+
+    if (this.props.removeTopBar) {
+      options.removeTopBar = this.props.removeTopBar;
+    }
+
+    if (this.props.light) {
+      options.light = this.props.light;
+    }
+
+    if (this.props.customFileManager) {
+      options.customFileManager = this.props.customFileManager;
+    }
+
+    if (this.props.fonts) {
+      options.fonts = this.props.fonts;
+    }
+
+    if (this.props.savedBlocks) {
+      options.savedBlocks = this.props.savedBlocks;
+    }
+
+    if (this.props.premadeBlocks) {
+      options.premadeBlocks = this.props.premadeBlocks;
+    }
+    
+    if (this.props.sendTestEmail) {
+      options.sendTestEmail = this.props.sendTestEmail;
+    }
+
+    if (this.props.language) {
+      options.language = this.props.language;
+    }
+    
+    if (this.props.api) {
+      options.api = this.props.api;
+    }
+    
     /**
-     * Inializing the by passing TOPOL_OPTIONS
+     * Inializing the Topol plugin by passing options
      */
-    var TOPOL_OPTIONS = {
+    options = {
       id: "#editor",
-      authorize: {
-          apiKey: "2HzrKzFpwOqiG98EmT3zRSdO6byCbRIVE0mCFiQYGPKLPWttrwOMWAFyeRcr",
-          userId: "rohit@quovantis.com",
-      },
-      templateId: 1,
-      googleFonts: [  // List of google fonts to load
-        'Roboto',
-        'K2D',
-        'Mali'
-      ],
       callbacks: {
         onSaveAndClose: this.onSaveAndClose,
         onSave: this.onSave,
@@ -62,40 +102,7 @@ export default class extends Component {
         onBlockRemove: this.onBlockRemove,
         onBlockEdit: this.onBlockEdit,
       },
-      mergeTags: [{
-        name: 'Merge tags', // Group name 
-        items: [{
-            value: "*|FIRST_NAME|*", // Text to be inserted
-            text: "First name", // Shown text in the menu
-            label: "Customer's first name" // Shown description title in the menu
-          },
-          {
-            value: "*|LAST_NAME|*",
-            text: "Last name",
-            label: "Customer's last name"
-          }
-        ]
-      }, {
-        name: 'Special links', // Group name 
-        items: [{
-            value: "<a href=\"*|UNSUBSCRIBE_LINK|*\">Unsubscribe</a>",
-            text: "Unsubscribe",
-            label: "Unsubscribe link"
-          },
-          {
-            value: "<a href=\"*|WEB_VERSION_LINK|*\">Web version</a>",
-            text: "Web version",
-            label: "Web version link"
-          }
-        ]
-      }, {
-        name: 'Special content', // Group name 
-        items: [{
-          value: "For more details, please visit our <a href=\"https://www.shop.shop\">e-shop</a>!",
-          text: "Visit our site",
-          label: "Call to action"
-        }]
-      }],
+      ...options,
     };
 
     TopolPlugin.init(TOPOL_OPTIONS);
@@ -108,61 +115,41 @@ export default class extends Component {
    * Callbacks
    */
   onSaveAndClose = (json, html) => {
-    // HTML of the email
-    console.log(html);
-    // JSON object of the email
-    console.log(json);
+    this.props.onSaveAndClose(json, html);
   }
 
   onSave = (json, html) => {
-    // HTML of the email
-    console.log(html);
-    // JSON object of the email
-    console.log(json);
+    this.props.onSave(json, html);
   }
 
   onTestSend = (email, json, html) => {
-    // HTML of the email
-    console.log(html);
-    // JSON object of the email
-    console.log(json);
-    // Email of the recipient
-    console.log(email);
-    // Callback when send test email button is clicked
+    this.props.onTestSend(email, json, html);
   }
 
   onOpenFileManager = () => {
-    // Implement your own file manager open callback
+    this.props.onOpenFileManager();
   }
 
   onAutoSave = (json)  => {
     // Called when the editor decides that it needs an autosave. Mostly when the user makes a change and does not save it immediately.
-    console.log(json);
+    this.props.onAutoSave(json);
   }
 
   onBlockSave = (json) => {
-    var name = window.prompt('Enter block name:')
-      if (name !== null) {
-          console.log('saving block', json)
-      }
+    this.props.onBlockSave(json);
   }
 
   onBlockRemove = (id) => {
-    if (window.confirm('Are you sure?')) {
-        console.log('removing block', id)
-    }
+    this.props.onBlockRemove(id);
   }
 
   onBlockEdit = (id) => {
-    var name = window.prompt('Block name:', 'My block 001')
-    if (name !== null) {
-        console.log('saving edited block', id)
-    }
+    this.props.onBlockEdit(id);
   }
 
 
   /**
-   * Functions
+   * Functions/Apis
    */
   loadDesign = (design) => {
     TopolPlugin.load(design)

@@ -47,7 +47,7 @@ const Bar = styled.div`
     margin-left: 10px;
     font-size: 14px;
     font-weight: bold;
-    background-color: #000;
+    background-color: #04aaf5;
     color: #FFF;
     border: 0px;
     max-width: 200px;
@@ -66,15 +66,17 @@ class Demo extends Component {
           <Bar>
             <h1>Topol React Email Editor Demo</h1>
 
-            <button onClick={this.onLoadSampleTemplate1}>Load Sample Template-1</button>
-            <button onClick={this.onLoadSampleTemplate2}>Load Sample Template-2</button>
+            <button onClick={this.onLoadSampleTemplate1}>Load Template-1</button>
+            <button onClick={this.onLoadSampleTemplate2}>Load Template-2</button>
             <button onClick={this.saveDesign}>Save HTML</button>
+            <button onClick={this.togglePreview}>Toggle Preview</button>
           </Bar>
 
           <Example
             ref={editor => this.editor = editor}
             onLoad={this.onLoad}
             saveDesign={this.saveDesign}
+            onSave={this.onSave}
           />
         </Container>
       </React.Fragment>
@@ -82,13 +84,11 @@ class Demo extends Component {
   }
 
   onLoadSampleTemplate1 = () => {
-    const updated = JSON.stringify(sampleTemplate1);
-    this.editor.loadDesign(updated);
+    this.editor.loadDesign(JSON.stringify(sampleTemplate1));
   }
 
   onLoadSampleTemplate2 = () => {
-    const updated = JSON.stringify(sampleTemplate2);
-    this.editor.loadDesign(updated);
+    this.editor.loadDesign(JSON.stringify(sampleTemplate2));
   }
 
   saveDesign = () => {
@@ -98,6 +98,13 @@ class Demo extends Component {
     })
   }
 
+  togglePreview = () => {
+    this.editor.togglePreview();
+  }
+
+  onSave = (json, html) => {
+    console.log(json);
+  }
 }
 
 render(<Demo/>, document.querySelector('#demo'))
